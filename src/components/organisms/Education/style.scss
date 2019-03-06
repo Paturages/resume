@@ -1,0 +1,33 @@
+.Education {
+  padding: .5em 0;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: .8em;
+  }
+
+  &__year {
+    font-size: .8em;
+  }
+
+  &__body {
+    font-size: .8em;
+    margin: 0 .5rem;
+  }
+
+  &__logo {
+    flex-shrink: 0;
+    width: 1.5em;
+    max-height: 3em;
+    margin: .15em .5em;
+    filter: grayscale(100%) contrast(175%);
+    img {
+      width: 100%;
+    }
+  }
+}

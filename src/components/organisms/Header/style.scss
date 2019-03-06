@@ -1,0 +1,36 @@
+@import "../../../scss/colors.scss";
+
+.Header {
+  background-color: $color__dark;
+  color: $color__light;
+
+  &__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em 2em;
+    letter-spacing: 2px;
+  }
+
+  &__picture {
+    width: 4em;
+    height: 4em;
+    background-size: contain;
+    background-position: center;
+    border: 2px solid $color__light;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1.5em;
+  }
+
+  &__name {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  &__subtitle {
+    background: $color__darker;
+    padding: .5rem 2rem;
+    font-size: 1.5em;
+  }
+}

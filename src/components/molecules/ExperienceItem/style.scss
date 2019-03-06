@@ -1,0 +1,41 @@
+@import "../../../scss/colors.scss";
+
+.ExperienceItem {
+  &__company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__label {
+    flex: 1;
+  }
+  &__subtitle {
+    font-size: .8em;
+  }
+  &__icon {
+    width: 2em;
+    height: 2em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: .5em;
+    filter: grayscale(100%) contrast(175%);
+  }
+  &__subitems {
+    border-left: 1px solid rgba($color__darker, .2);
+    margin: .5em 1em;
+    padding-left: 1em;
+  }
+  &__subitem {
+    margin-bottom: 1em;
+  }
+  &__project {
+    margin-bottom: .5em;
+    &-subtitle {
+      font-size: .8em;
+    }
+  }
+  &__description {
+    font-size: .8em;
+  }
+}

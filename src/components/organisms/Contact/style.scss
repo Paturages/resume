@@ -1,0 +1,17 @@
+.Contact {
+  padding: .5em 0;
+  &__item {
+    font-size: .8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__icon {
+    flex-shrink: 0;
+    width: 3em;
+    height: 1.75em;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

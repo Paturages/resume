@@ -1,0 +1,10 @@
+@import "../../../scss/colors.scss";
+
+.PanelLegend {
+  display: inline-block;
+  border-bottom: 1px solid $color__darker;
+  margin-bottom: .5em;
+  width: calc(100% - 1em);
+  padding-left: 2rem;
+  box-sizing: border-box;
+}

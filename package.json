@@ -1,0 +1,22 @@
+{
+  "name": "@paturages/resume",
+  "version": "1.0.0",
+  "description": "Paturages' resume framework thing",
+  "main": "src/main.jsx",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.4",
+    "react-hot-loader": "^4.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.17.2"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html -d docs --public-url ./"
+  },
+  "author": "Paturages",
+  "license": "MIT"
+}
