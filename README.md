@@ -1,5 +1,7 @@
 # resume
 
+[Link to preview](https://paturages.github.io/resume/index.html)
+
 A personal framework to layout and maintain my own resumé. It's mainly just a thing for me to not have to tinker around visual details when I have to change items and words on my resumé, not really intended for public reuse but you're free to take ideas from this framework!
 
 The "application" is mainly an empty shell that takes in data imported from `src/data`. As you might figure out, all the information I would need to touch is centralized in one file. And I can create new ones depending on needs: `public.en.jsx` is an example one I'm willing to publish on the Internet under this moniker, but I have other ones, including French-localized versions, for more formal situations.
