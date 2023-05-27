@@ -1,6 +1,5 @@
-import React from "react";
-
-import Legend from "~components/atoms/PanelLegend";
+import type { EducationSection } from "types";
+import Legend from "components/atoms/PanelLegend";
 
 import "./style.scss";
 
@@ -10,7 +9,7 @@ export default ({
   year = "20XX - 20XX",
   title = "Something, Somewhere",
   subtitle = "It's a diploma about something"
-}) => <div className="Education">
+}: EducationSection) => <div className="Education">
   <Legend>{legend}</Legend>
   <div className="Education__header">
     <div className="Education__logo">

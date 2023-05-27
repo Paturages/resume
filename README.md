@@ -10,7 +10,7 @@ Notably, neat thing I can do is, for example:
 ```
 # professional.en.jsx
 import React from "react";
-import me from "~assets/images/me.jpeg";
+import me from "assets/images/me.jpeg";
 import public from "./public.en";
 
 export default {
@@ -24,11 +24,11 @@ export default {
 ```
 which overrides the header information in `public.en.jsx` with my IRL information!
 
-The "application" leverages React purely for component organization and templating, as well as taking profit from `react-hot-loader`. The "build system", so to speak, consists of "printing" the web page into a PDF file (typically done on Google Chrome).
+The "application" leverages React purely for component organization and templating, as well as taking profit from `vite`'s hot loader. The "build system", so to speak, consists of "printing" the web page into a PDF file (typically done on Google Chrome).
 
 ## Quickstart
 
-`npm install`, `npm start` and just follow the link `parcel` gives you.
+`npm install`, `npm run dev` (or `yarn`, `yarn dev`) and just follow the link `vite` gives you.
 
 ## Disclaimer
 

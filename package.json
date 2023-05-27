@@ -1,22 +1,30 @@
 {
-  "name": "@paturages/resume",
-  "version": "1.0.0",
-  "description": "Paturages' resume framework thing",
-  "main": "src/main.jsx",
+  "name": "resume-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.4",
-    "react-hot-loader": "^4.7.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "parcel-bundler": "^1.11.0",
-    "sass": "^1.17.2"
-  },
-  "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html -d docs --public-url ./"
-  },
-  "author": "Paturages",
-  "license": "MIT"
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
 }

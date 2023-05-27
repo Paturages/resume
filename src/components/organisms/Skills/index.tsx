@@ -1,13 +1,12 @@
-import React from "react";
-
-import Legend from "~components/atoms/PanelLegend";
+import type { SkillSection } from "types";
+import Legend from "components/atoms/PanelLegend";
 
 import "./style.scss";
 
 export default ({
   legend = "Skills",
   items = []
-}) => <div className="Skills">
+}: SkillSection) => <div className="Skills">
   <Legend>{legend}</Legend>
   <div className="Skills__items">
     {items.map(([icon, title, subtitle]) => <div className="Skills__item">

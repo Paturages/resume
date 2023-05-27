@@ -1,8 +1,15 @@
-import React from "react";
-
+import type { ProjectItem } from "types";
 import "./style.scss";
 
-import saegus from "~assets/icons/saegus.svg";
+import saegus from "assets/icons/saegus.svg";
+
+interface ExperienceItemProps {
+  icon: string;
+  company: string;
+  subtitle: string;
+  period: string;
+  subitems: ProjectItem[];
+}
 
 export default ({
   icon = saegus,
@@ -10,7 +17,7 @@ export default ({
   subtitle = "Web development and digital consulting",
   period = "Oct 2016 - ongoing",
   subitems = [
-    ["saegus factory", "Where design and tech meet and combine", <React.Fragment>
+    ["saegus factory", "Where design and tech meet and combine", <>
       <div>Technical lead and full stack development</div>
       <div>Collaboration with UI and UX designers</div>
       <small>
@@ -18,20 +25,20 @@ export default ({
           https://saegus.com/en/offers/#skillsCenter
         </a>
       </small>
-    </React.Fragment>],
-    ["Foreseeds", "A digitalized design thinking platform", <React.Fragment>
+    </>],
+    ["Foreseeds", "A digitalized design thinking platform", <>
       <div>Web application full-stack development</div>
       <div>Maintenance and support</div>
       <div>Node.js, AngularJS, socket.io, PostgreSQL, Redis, AWS</div>
       <small><a target="_blank" href="https://foreseeds.com">https://foreseeds.com</a></small>
-    </React.Fragment>],
-    ["Mutualize", "Digitalizing the insurance subscription experience", <React.Fragment>
+    </>],
+    ["Mutualize", "Digitalizing the insurance subscription experience", <>
       <div>Mobile-first web application full-stack development</div>
       <div>Setup, deployment and maintenance of Raspberry Pi environment</div>
       <div>Node.js, React, socket.io, MongoDB, Redis</div>
-    </React.Fragment>]
+    </>]
   ]
-}) => <div className="ExperienceItem">
+}: ExperienceItemProps) => <div className="ExperienceItem">
   <div className="ExperienceItem__company">
     <div className="ExperienceItem__icon" style={{
       backgroundImage: `url(${icon})`
