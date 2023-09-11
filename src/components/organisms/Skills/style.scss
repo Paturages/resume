@@ -16,6 +16,11 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  &__title {
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0;
+  }
   &__subtitle {
     font-size: .8em;
   }

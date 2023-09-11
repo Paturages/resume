@@ -1,9 +1,11 @@
 @import "../../../scss/colors.scss";
 
 .PanelLegend {
+  font-weight: 400;
+  font-size: 1em;
   display: inline-block;
   border-bottom: 1px solid $color__darker;
-  margin-bottom: .5em;
+  margin: 0 0 .5em;
   width: calc(100% - 1em);
   padding-left: 2rem;
   box-sizing: border-box;

@@ -44,7 +44,7 @@ export default ({
       backgroundImage: `url(${icon})`
     }} />
     <div className="ExperienceItem__label">
-      <div className="ExperienceItem__title">{company}</div>
+      <h3 className="ExperienceItem__title">{company}</h3>
       <div className="ExperienceItem__subtitle">{subtitle}</div>
     </div>
     <div className="ExperienceItem__period">
@@ -56,7 +56,7 @@ export default ({
       project, projectSubtitle, description
     ]) => <div className="ExperienceItem__subitem">
       <div className="ExperienceItem__project">
-        <div className="ExperienceItem__project-title">{project}</div>
+        <h4 className="ExperienceItem__project-title">{project}</h4>
         <div className="ExperienceItem__project-subtitle">{projectSubtitle}</div>
       </div>
       <div className="ExperienceItem__description">

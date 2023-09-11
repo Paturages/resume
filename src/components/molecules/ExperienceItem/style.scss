@@ -9,6 +9,11 @@
   &__label {
     flex: 1;
   }
+  &__title {
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0;
+  }
   &__subtitle {
     font-size: .8em;
   }
@@ -31,6 +36,11 @@
   }
   &__project {
     margin-bottom: .5em;
+    &-title {
+      font-weight: 400;
+      font-size: 1em;
+      margin: 0;
+    }
     &-subtitle {
       font-size: .8em;
     }

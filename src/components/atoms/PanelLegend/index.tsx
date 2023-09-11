@@ -6,5 +6,5 @@ interface PanelLegendProps {
 }
 
 export default ({ children }: PanelLegendProps) => (
-  <div className="PanelLegend">{children}</div>
+  <h2 className="PanelLegend">{children}</h2>
 );

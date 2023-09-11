@@ -16,9 +16,9 @@ export default ({
       <img alt="" src={logo} />
     </div>
     <div className="Education__header-label">
-      <div className="Education__title">
+      <h3 className="Education__title">
         {title}
-      </div>
+      </h3>
       <div className="Education__year">{year}</div>
     </div>
   </div>

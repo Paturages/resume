@@ -6,5 +6,5 @@ interface BodyLegendProps {
 }
 
 export default ({ children }: BodyLegendProps) => (
-  <div className="BodyLegend">{children}</div>
+  <h2 className="BodyLegend">{children}</h2>
 );

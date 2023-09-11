@@ -14,7 +14,7 @@ export default ({
         backgroundImage: `url(${icon})`
       }} />
       <div className="Skills__label">
-        <div className="Skills__title">{title}</div>
+        <h3 className="Skills__title">{title}</h3>
         <div className="Skills__subtitle">{subtitle}</div>
       </div>
     </div>)}
