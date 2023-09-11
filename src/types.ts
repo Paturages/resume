@@ -19,7 +19,7 @@ export interface EducationSection {
   legend: string;
   logo: string;
   year: string;
-  title: string;
+  title: ReactNode;
   subtitle: string;
 }
 

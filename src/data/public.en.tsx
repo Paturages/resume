@@ -8,7 +8,6 @@ import github from "assets/icons/github.svg";
 import website from "assets/icons/website.svg";
 
 import eisti from "assets/images/eisti.png";
-import mbs3 from "assets/images/mbs3.png";
 
 import frontend from "assets/icons/frontend.svg";
 import ui from "assets/icons/ui.svg";
@@ -26,8 +25,9 @@ import usa from "assets/icons/usa.svg";
 import germany from "assets/icons/germany.svg";
 import vietnam from "assets/icons/vietnam.svg";
 
-import chorus from "assets/icons/chorus.png";
 import ch from "assets/icons/ch.png";
+import osu from "assets/icons/osu.svg";
+import cheri from "assets/images/cheri.png";
 
 import saegus from "assets/icons/saegus.svg";
 import stratumn from "assets/icons/stratumn.png";
@@ -38,7 +38,7 @@ const data: ResumeData = {
   },
   header: {
     name: "Paturages",
-    subtitle: "A full-stack web developer, and more!",
+    subtitle: "A full stack engineer, and more!",
     picture: miko
   },
   contact: {
@@ -56,8 +56,11 @@ const data: ResumeData = {
     legend: "Education",
     logo: eisti,
     year: "2011 - 2016",
-    title: "EISTI, Cergy-Pontoise",
-    subtitle: "Master's Degree in Software Engineering"
+    title: <>
+      <div>EISTI (CY Tech)</div>
+      <div>Cergy-Pontoise</div>
+    </>,
+    subtitle: "Master's Degree in Software Engineering"
   },
   skills: {
     legend: "Skills",
@@ -66,7 +69,7 @@ const data: ResumeData = {
       [ui, "UI integration", "HTML/CSS, SCSS, atomic design"],
       [backend, "Backend development", "Node.js, PHP, Python"],
       [database, "Database management", "PostgreSQL, SQLite, Redis, MongoDB"],
-      [devops, "DevOps", "Docker, Terraform, CircleCI, GitLab CI, GitHub Actions, Linux, AWS"],
+      [devops, "DevOps", "Docker, Terraform, CircleCI, GitLab CI, GitHub Actions, Linux, AWS"],
       [project, "Project management", "Agile (Scrum), Trello, JIRA, GitHub, GitLab"],
     ]
   },
@@ -91,10 +94,10 @@ const data: ResumeData = {
   industry: {
     legend: "Professional experience",
     items: [
-      [stratumn, "Stratumn", "Software engineer, product leader", "Jun 2019 - Feb 2023", [
+      [stratumn, "Stratumn", "Full stack software engineer and lead", "Jun 2019 - Feb 2023", [
         ["Trace", "Augmented business process management", <>
-          <div>Lead development and engineering work across the whole stack on a dedicated product</div>
-          <div>Feature ownership and deep diving working with Agile methodology, R&D</div>
+          <div>Development and engineering work across the whole stack on a dedicated product</div>
+          <div>Feature ownership and planning, R&D</div>
           <div>Product management and knowledge transfer in acquisition context with Sia Partners</div>
           <div><i>TypeScript, React, Node.js, PostgreSQL, Redis, AWS, Terraform</i></div>
           <small>
@@ -104,7 +107,7 @@ const data: ResumeData = {
           </small>
         </>]
       ]],
-      [saegus, "saegus", "Web developer, digital consultant", "Oct 2016 - Jun 2019", [
+      [saegus, "saegus", "Full stack web developer, digital consultant", "Oct 2016 - Jun 2019", [
         ["saegus factory", "Where design and tech meet and combine", <>
           <div>Technical lead and full stack development</div>
           <div>Collaboration with UI and UX designers</div>
@@ -125,31 +128,36 @@ const data: ResumeData = {
     ]
   },
   personal: {
-    legend: "Personal projects",
+    legend: "Personal/volunteer experience",
     items: [
-      [mbs3, "Mania Beginner's Showdown 3", "International online gaming tournament", "", [
+      [osu, "osu!", "One of the most established online rhythm games - 10K+ daily players", "", [
         ["", "", <>
-          <div>Web application full-stack development</div>
-          <div>Maintenance of Linux server</div>
-          <div><i>Svelte, Node.js, GitHub Pages, Directus</i></div>
-          <small><a target="_blank" href="https://mbs3.fightthe.pw">https://mbs3.fightthe.pw</a></small><br />
-          <small><a target="_blank" href="https://github.com/Paturages/mbs3">https://github.com/Paturages/mbs3</a></small>
+          <div>Tournament management and staffing, streaming (Twitch), content creation (beatmaps)</div>
+          <div>Development of tools, scripts and websites/webapps for those tournaments</div>
+          <div>(<i>Google App Scripts, Svelte, Node.js</i>)</div>
+          <small><a target="_blank" href="https://osu.ppy.sh/users/1375479">https://osu.ppy.sh/users/1375479</a> - </small>
+          <small><a target="_blank" href="https://mbs3.fightthe.pw">https://mbs3.fightthe.pw</a></small>
         </>]
       ]],
-      [chorus, "chorus", "Centralized repository of user-created content for Clone Hero", "", [
+      [ch, "Clone Hero", "The currently most popular Guitar Hero clone - 100K+ monthly players", "", [
         ["", "", <>
-          <div>Draft, proof-of-concept and web application full-stack development</div>
-          <div>Maintenance of Linux server</div>
-          <div><i>Node.js, React, PostgreSQL, Google Drive API</i></div>
-          <small><a target="_blank" href="https://chorus.fightthe.pw">https://chorus.fightthe.pw</a></small><br />
-          <small><a target="_blank" href="https://github.com/Paturages/chorus">https://github.com/Paturages/chorus</a></small>
+          <div>Design and frontend integration of official website</div>
+          <div>(<i>Jekyll, GitLab Pages, SCSS</i>)</div>
+          <div>Maintenance of websites, webapps and tools for the content creation community</div>
+          <div>(<i>React, Node.js, Ghost, PostgreSQL, Google Drive API</i>)</div>
+          <small><a target="_blank" href="https://clonehero.net">https://clonehero.net</a> - </small>
+          <small><a target="_blank" href="https://chorus.fightthe.pw">https://chorus.fightthe.pw</a> - </small>
+          <small><a target="_blank" href="https://customsongscentral.com">https://customsongscentral.com</a></small>
         </>]
       ]],
-      [ch, "Clone Hero", "Official website", "", [
+      [cheri, "Cheri Lupina", "One of VReverie's online streamers and talents - 60K+ subscribers", "", [
         ["", "", <>
-          <div>Refactoring, redesign and frontend integration</div>
-          <div><i>Jekyll, GitLab Pages, SCSS</i></div>
-          <small><a target="_blank" href="https://clonehero.net">https://clonehero.net</a></small>
+          <div>Community management and moderation (YouTube), talent support</div>
+          <div>Deployment and maintenance of third-party helper tools (<i>Python, Node.js</i>)</div>
+          <div>Development of tools, scripts and silly other things (<i>Svelte, Node.js</i>)</div>
+          <small><a target="_blank" href="https://www.youtube.com/@CheriLupina">https://www.youtube.com/@CheriLupina</a> - </small>
+          <small><a target="_blank" href="https://v-reverie.com">https://v-reverie.com</a> - </small>
+          <small><a target="_blank" href="https://paturages.github.io/hoi">https://paturages.github.io/hoi</a></small>
         </>]
       ]],
     ]
