@@ -5,6 +5,7 @@ import App from "./App.tsx";
 import "./scss/base.scss";
 
 import data from "./data/public.en";
+// import data from "data/professional.fr";
 // import data from "data/professional.en";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

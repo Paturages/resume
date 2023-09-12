@@ -109,7 +109,7 @@ const data: ResumeData = {
       ]],
       [saegus, "saegus", "Full stack web developer, digital consultant", "Oct 2016 - Jun 2019", [
         ["saegus factory", "Where design and tech meet and combine", <>
-          <div>Technical lead and full stack development</div>
+          <div>Technical lead and full stack development on various client projects</div>
           <div>Collaboration with UI and UX designers</div>
           <div><i>Node.js, PHP, React, Vue, Storybook, Zeplin/Invision</i></div>
           <small>
@@ -120,7 +120,7 @@ const data: ResumeData = {
         </>],
         ["Foreseeds", "A digitalized design thinking platform", <>
           <div>Web application full-stack development</div>
-          <div>Maintenance and support</div>
+          <div>Feature development, maintenance and support</div>
           <div><i>Node.js, AngularJS, socket.io, PostgreSQL, Redis, AWS</i></div>
           <small><a target="_blank" href="https://foreseeds.com">https://foreseeds.com</a></small>
         </>],
@@ -133,7 +133,7 @@ const data: ResumeData = {
       [osu, "osu!", "One of the most established online rhythm games - 10K+ daily players", "", [
         ["", "", <>
           <div>Tournament management and staffing, streaming (Twitch), content creation (beatmaps)</div>
-          <div>Development of tools, scripts and websites/webapps for those tournaments</div>
+          <div>Development of tools, scripts, websites and webapps for those tournaments</div>
           <div>(<i>Google App Scripts, Svelte, Node.js</i>)</div>
           <small><a target="_blank" href="https://osu.ppy.sh/users/1375479">https://osu.ppy.sh/users/1375479</a> - </small>
           <small><a target="_blank" href="https://mbs3.fightthe.pw">https://mbs3.fightthe.pw</a></small>
@@ -141,8 +141,8 @@ const data: ResumeData = {
       ]],
       [ch, "Clone Hero", "The currently most popular Guitar Hero clone - 100K+ monthly players", "", [
         ["", "", <>
-          <div>Design and frontend integration of official website</div>
-          <div>(<i>Jekyll, GitLab Pages, SCSS</i>)</div>
+          <div>Design and frontend integration of official website (<i>Jekyll, GitLab Pages, SCSS</i>)</div>
+          <div>Content creation and peer reviewing (music transcription into charts/beatmaps)</div>
           <div>Maintenance of websites, webapps and tools for the content creation community</div>
           <div>(<i>React, Node.js, Ghost, PostgreSQL, Google Drive API</i>)</div>
           <small><a target="_blank" href="https://clonehero.net">https://clonehero.net</a> - </small>
@@ -152,8 +152,8 @@ const data: ResumeData = {
       ]],
       [cheri, "Cheri Lupina", "One of VReverie's online streamers and talents - 60K+ subscribers", "", [
         ["", "", <>
-          <div>Community management and moderation (YouTube), talent support</div>
-          <div>Deployment and maintenance of third-party helper tools (<i>Python, Node.js</i>)</div>
+          <div>Community management and moderation (YouTube, Discord), talent support</div>
+          <div>Deployment and maintenance of third-party tools (<i>Python, Node.js, DigitalOcean</i>)</div>
           <div>Development of tools, scripts and silly other things (<i>Svelte, Node.js</i>)</div>
           <small><a target="_blank" href="https://www.youtube.com/@CheriLupina">https://www.youtube.com/@CheriLupina</a> - </small>
           <small><a target="_blank" href="https://v-reverie.com">https://v-reverie.com</a> - </small>
